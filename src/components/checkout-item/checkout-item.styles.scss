@@ -1,4 +1,4 @@
-.checkout-item{
+.checkout-item {
   width: 100%;
   display: flex;
   min-height: 100%;
@@ -7,7 +7,7 @@
   font-size: 20px;
   align-items: center;
 
-  .image-container{
+  .image-container {
     width: 23%;
     padding-right: 15px;
 
@@ -16,9 +16,24 @@
       height: 100%;
     }
   }
+
   .name,
   .quantity,
-  .price{
+  .price {
     width: 23%;
+  }
+
+  .quantity {
+    display: flex;
+
+
+    .arrow {
+      cursor: pointer;
+    }
+
+    .value {
+      margin: 0 10px;
+    }
+
   }
 }
